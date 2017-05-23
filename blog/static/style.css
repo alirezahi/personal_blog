@@ -13,11 +13,12 @@ body{
     height:80vh;
 }
 .element-div{
+    border-left:3px solid deepskyblue;
     display: block;
     margin:10px;
     background-color:rgba(256,256,256,0.7);
     border-radius:10px;
-    padding:5px;
+    padding:0;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
@@ -59,15 +60,6 @@ body{
     overflow-y: scroll;
     overflow-x: auto;
 }
-.hello{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    right:0;
-    left:0;
-    overflow-y: scroll;
-    overflow-x: auto;
-}
 
 @media (min-width: 768px){
   #left {
@@ -86,14 +78,71 @@ body{
     overflow-y: scroll;
   }
 }
-
-#left {
-  text-align: center;
-}
-
-#right {
-  text-align: center;
-}
 .wow{
     position: relative;
+}
+.main_row{
+    padding:0;
+    margin:0;
+}
+.doc-img{
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    top:0;
+}
+.element-img-div{
+    text-align: center;
+}
+.element-text-div{
+    padding:10px;
+}
+.btn-private{
+    border-radius:25px;
+    border:2px solid black;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:5px;
+    background-color: transparent;
+}
+.menu-list-icon > li{
+    margin:5px;
+    list-style: none;
+    font-size:13px;
+    padding:5px;
+}
+.menu-list-icon > li > ul > li {
+    list-style: none;
+    margin:5px;
+    padding:5px;
+}
+.menu-list-icon > li > ul > li > button >  i {
+    padding: 5px;
+}
+.menu-list-icon > li > ul > li > button {
+    background-color: transparent;
+    border:none;
+    border-right:3px solid transparent;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.menu-list-icon > li > ul > li > button:hover{
+    border-right :3px solid mediumpurple;
+    color:mediumpurple;
+     -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.list-group{
+    background-color:transparent !important;
+    border : none !important;
+}
+.list-group-item{
+    background-color:transparent !important;
+    border : none !important;
 }
