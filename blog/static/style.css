@@ -1,0 +1,51 @@
+body{
+    background: rgb(168,150,236);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(238,209,240), rgb(168,150,236));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(238,209,240), rgb(168,150,236)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainly{
+    background: linear-gradient(141deg, rgba(215,208,249,0.5) 0%, rgba(234,213,229,0.5) 51%, rgba(215,208,249,0.5) 75%);
+    margin:5%;
+    padding:2%;
+    border-radius:5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.01);
+}
+.element-div{
+    margin:10px;
+    background-color:rgba(256,256,256,0.7);
+    border-radius:10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.01);
+    padding:5px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+.element-div:hover{
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    background-color:rgba(20,150,110,0.6);
+    color:white;
+}
+.center-side-div{
+    border-left:3px solid rgba(256,256,256,0.8);
+    border-right:3px solid rgba(256,256,256,0.8);
+}
+.main-img{
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.01);
+}
+.main-menu{
+    margin-bottom:20px;
+    background-color:rgba(256,256,256,0.7);
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.01);
+}
